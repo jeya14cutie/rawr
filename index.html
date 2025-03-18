@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Pop Hub</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4ABAA;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .video-container {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .video-container video {
+            width: 100%;
+            height: auto;
+        }
+
+        .featured-groups {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+
+        .group-card {
+            width: 200px;
+            margin: 10px;
+            padding: 15px;
+            background-color: pink;
+            border-radius: 8px;
+			text-align:left;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .group-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#videos">Videos</a>
+        <a href="#groups">Groups</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <div class="content" id="home">
+        <h1>☆ W E L C O M E to K-Pop Hub ★</h1>
+        <p>Your ultimate source for all things K-Pop.</p>
+    </div>
+
+    <div class="content" id="videos">
+        <h2>Featured Videos</h2>
+        <div class="video-container">
+            <video controls>
+                <source src="blackpink.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        
+
+    </div>
+
+    <div class="content" id="groups">
+        <h2>⋆.  Popular K-Pop Groups</h2>
+        <div class="featured-groups">
+            
+            <div class="group-card">
+                <img src="blackpink.jpg" alt="Group 1"height="100">
+                <h3>      ⋆. 𐙚 BlackPink</h3>
+                <p>BLACKPINK is a South Korean girl group formed by YG Entertainment in 2016. The group consists of Jisoo, Jennie, Rosé, and Lisa. Known for their powerful performances and stylish concepts, they debuted with the songs Boombayah and Whistle. BLACKPINK gained global fame with hits like Ddu-Du Ddu-Du, Kill This Love, and How You Like That. They are one of the biggest K-pop acts, breaking records on YouTube and collaborating with international artists like Lady Gaga, Selena Gomez, and Cardi B. Their fandom is called BLINK..</p>
+            </div>
+
+            <div class="group-card">
+                <img src="lesserafim.jpg" alt="Group 2">
+                <h3>⋆｡˚୨୧˚｡⋆ Le Sserafim</h3>
+                <p>LE SSERAFIM is a South Korean girl group under HYBE and Source Music. They debuted on May 2, 2022, with the mini-album FEARLESS. The group originally had six members but now consists of Kim Chaewon, Sakura, Huh Yunjin, Kazuha, and Hong Eunchae after Kim Garam’s departure.
+
+Their name, LE SSERAFIM, is an anagram of “I’M FEARLESS,” representing confidence and determination. They are known for their powerful performances, sleek concepts, and strong vocals, with hit songs like FEARLESS, ANTIFRAGILE, and UNFORGIVEN..</p>
+            </div>
+
+            <div class="group-card">
+                <img src="newjeans.jpg" alt="Group 3">
+                <h3>⋆.˚ ౨ৎ ˚ New Jeans</h3>
+                <p>NewJeans is a South Korean girl group under ADOR, a subsidiary of HYBE. They debuted on July 22, 2022, with the single "Attention", followed by their self-titled EP. The group consists of Minji, Hanni, Danielle, Haerin, and Hyein. Known for their fresh Y2K-inspired concept, nostalgic pop sound, and minimalistic aesthetics, they quickly gained massive popularity. Their hit songs include "Hype Boy," "Ditto," "OMG," and "Super Shy." NewJeans is often praised for redefining K-pop trends with a natural and effortless image..</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="content" id="about">
+        <h2>About Us</h2>
+        <p>This website is dedicated to providing information and entertainment about K-Pop.</p>
+    </div>
+
+    <script>
+        // Optional JavaScript (e.g., for dynamic content)
+        console.log("K-Pop Hub loaded!");
+    </script>
+</body>
+</html>
